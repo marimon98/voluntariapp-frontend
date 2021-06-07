@@ -1,6 +1,11 @@
 import React, {useState, Fragment, useRef} from "react";
 import  {v4 as uuidv4} from 'uuid';
+import {BrowserRouter as Router, Route} from "react-router-dom";
+
 import { TodoList } from "./components/TodoList";
+import UserProfile from "./components/UserProfile";
+import Home from "./components/Home";
+import Navigation from "./components/Navigation";
 
 export function App() {
     const [todos, setTodos] = useState([
@@ -28,11 +33,11 @@ export function App() {
     };
 
     return (
-        <Fragment>
-            <TodoList todos={todos} toggleTodo={toggleTodo}/>
-            <input ref={todoTaskRef} type={"text"} placeholder={"Nuevo voluntariado"}/>
-            <button onClick={handleTodoAdd}>Soy un boton</button>
-        </Fragment>
+        <Router>
+            <Navigation />
+            <Route path="/" exact component={Home} />
+            <Route path="/profile" component={UserProfile} />
+        </Router>
 
     );
 }
