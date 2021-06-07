@@ -1,18 +1,21 @@
 import React, {useState, Fragment, useRef} from "react";
 import ReactDom from "react-dom";
 import  {v4 as uuidv4} from 'uuid';
-import { TodoList } from "./components/TodoList";
 import './Esqueleto.css';
 import { App } from './App';
+import {Link, Route, BrowserRouter as Router} from "react-router-dom";
 import homeIcon from './img/home.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome } from '@fortawesome/free-solid-svg-icons'
+import Home from "./components/Home";
+import UserProfile from "./components/UserProfile";
 
 export function Esqueleto() {
 
 
     return (
-        <Fragment>
+        <Router>
+
 
             <head>
 
@@ -53,9 +56,9 @@ export function Esqueleto() {
 
                         {/*<!-- Nav Item - Inici -->*/}
                         <li className="nav-item">
-                            <a className="nav-link" href="/">
+                            <Link className="nav-link" to="/">
                                 <FontAwesomeIcon icon={faHome} />  &nbsp; &nbsp;
-                                <span>Inici</span></a>
+                                <span>Inici</span></Link>
                         </li>
 
                         {/*<!-- Divider -->*/}
@@ -68,21 +71,21 @@ export function Esqueleto() {
 
                         {/*<!-- Nav Item - General Collapse Menu -->*/}
                         <li className="nav-item">
-                            <a className="nav-link collapsed" onClick={() => ReactDom.render(<App />, document.getElementById("root"))} data-toggle="collapse" data-target="#collapseTwo"
+                            <Link className="nav-link collapsed" to="/" data-toggle="collapse" data-target="#collapseTwo"
                                 aria-expanded="true" aria-controls="collapseTwo">
                                 <FontAwesomeIcon icon={faHome} />  &nbsp; &nbsp;
                                 <span>General</span>
-                            </a>
+                            </Link>
 
                         </li>
 
                         {/*<!-- Nav Item - Inscrits Collapse Menu -->*/}
                         <li className="nav-item">
-                            <a className="nav-link collapsed" onClick={() => ReactDom.render(<App />, document.getElementById("root"))} data-toggle="collapse" data-target="#collapseUtilities"
+                            <Link className="nav-link collapsed" to="/profile" data-toggle="collapse" data-target="#collapseUtilities"
                                 aria-expanded="true" aria-controls="collapseUtilities">
                                 <FontAwesomeIcon icon={faHome} />  &nbsp; &nbsp;
                                 <span>Inscrits</span>
-                            </a>
+                            </Link>
                             <div id="collapseUtilities" className="collapse" aria-labelledby="headingUtilities"
                                 data-parent="#accordionSidebar">
                                 <div className="bg-white py-2 collapse-inner rounded">
@@ -364,7 +367,10 @@ export function Esqueleto() {
                             <div className="container-fluid">
 
                                 {/*<!-- Page Heading -->*/}
-                                <h1 className="h3 mb-4 text-gray-800">Blank Page</h1>
+                                <h1 className="h3 mb-4 text-gray-800">
+                                    <Route path="/" exact component={Home} />
+                                    <Route path="/profile" component={UserProfile} />
+                                </h1>
 
                             </div>
                             {/*<!-- /.container-fluid -->*/}
@@ -428,7 +434,7 @@ export function Esqueleto() {
 
 
 
-        </Fragment>
+        </Router>
 
     );
 }
