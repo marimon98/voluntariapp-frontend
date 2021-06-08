@@ -5,10 +5,9 @@ import './Esqueleto.css';
 import { App } from './App';
 import {Link, Route, BrowserRouter as Router} from "react-router-dom";
 import homeIcon from './img/home.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome } from '@fortawesome/free-solid-svg-icons'
-import Home from "./components/Home";
-import UserProfile from "./components/UserProfile";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faHands, faHandsHelping } from '@fortawesome/free-solid-svg-icons';
+import Navigation from "./components/Navigation";
 
 export function Esqueleto() {
 
@@ -71,9 +70,9 @@ export function Esqueleto() {
 
                         {/*<!-- Nav Item - General Collapse Menu -->*/}
                         <li className="nav-item">
-                            <Link className="nav-link collapsed" to="/" data-toggle="collapse" data-target="#collapseTwo"
+                            <Link className="nav-link collapsed" to="/general" data-toggle="collapse" data-target="#collapseTwo"
                                 aria-expanded="true" aria-controls="collapseTwo">
-                                <FontAwesomeIcon icon={faHome} />  &nbsp; &nbsp;
+                                <FontAwesomeIcon icon={faHands} />  &nbsp; &nbsp;
                                 <span>General</span>
                             </Link>
 
@@ -81,9 +80,9 @@ export function Esqueleto() {
 
                         {/*<!-- Nav Item - Inscrits Collapse Menu -->*/}
                         <li className="nav-item">
-                            <Link className="nav-link collapsed" to="/profile" data-toggle="collapse" data-target="#collapseUtilities"
+                            <Link className="nav-link collapsed" to="/enrolled" data-toggle="collapse" data-target="#collapseUtilities"
                                 aria-expanded="true" aria-controls="collapseUtilities">
-                                <FontAwesomeIcon icon={faHome} />  &nbsp; &nbsp;
+                                <FontAwesomeIcon icon={faHandsHelping} />  &nbsp; &nbsp;
                                 <span>Inscrits</span>
                             </Link>
                             <div id="collapseUtilities" className="collapse" aria-labelledby="headingUtilities"
@@ -368,8 +367,7 @@ export function Esqueleto() {
 
                                 {/*<!-- Page Heading -->*/}
                                 <h1 className="h3 mb-4 text-gray-800">
-                                    <Route path="/" exact component={Home} />
-                                    <Route path="/profile" component={UserProfile} />
+                                    <Navigation />
                                 </h1>
 
                             </div>

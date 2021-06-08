@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
 
-function Home () {
+function Enrolled () {
+
     return (
         <div>
-            Pantalla de inicio
+            Voluntariados inscritos
         </div>
     );
+
 }
 
-export default Home;
+export default Enrolled;
