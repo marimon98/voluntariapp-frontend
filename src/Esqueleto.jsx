@@ -16,7 +16,7 @@ export function Esqueleto() {
         <Router>
 
 
-            <head>
+            <head >
 
                 <meta charSet="utf-8"/>
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
@@ -40,7 +40,7 @@ export function Esqueleto() {
                 <div id="wrapper">
 
                     {/*<!-- Sidebar -->*/}
-                    <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+                    <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style ={headStyle}>
 
                         {/*<!-- Sidebar - Brand -->*/}
                         <a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
@@ -220,49 +220,13 @@ export function Esqueleto() {
                     {/*<!-- End of Content Wrapper -->*/}
 
                 </div>
-                {/*<!-- End of Page Wrapper -->*/}
-
-                {/*<!-- Scroll to Top Button-->*/}
-                <a className="scroll-to-top rounded" href="#page-top">
-                    <i className="fas fa-angle-up"></i>
-                </a>
-
-                {/*<!-- Logout Modal-->*/}
-                <div className="modal fade" id="logoutModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div className="modal-dialog" role="document">
-                        <div className="modal-content">
-                            <div className="modal-header">
-                                <h5 className="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                                <button className="close" type="button" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-                            </div>
-                            <div className="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                            <div className="modal-footer">
-                                <button className="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                                <a className="btn btn-primary" href="login.html">Logout</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/*<!-- Bootstrap core JavaScript-->*/}
-                <script src="vendor/jquery/jquery.min.js"></script>
-                <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-                {/*<!-- Core plugin JavaScript-->*/}
-                <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-                {/*<!-- Custom scripts for all pages-->*/}
-                <script src="/sb-admin-2.min.js"></script>
-
             </body>
-
-
-
-
         </Router>
 
     );
 }
+const headStyle = {
+   /* width: "130px",
+   position: "fixed",
+   zIndex: 1*/
+};

@@ -5,6 +5,7 @@ import VoluntariadosList from "./VoluntariadosList";
 import Enrolled from "./Enrolled";
 import UserProfile from "./UserProfile";
 import Experiencies from "./ExperienciesList";
+import Ranking from "./Ranking";
 
 class Navigation extends Component {
     render() {
@@ -17,6 +18,7 @@ class Navigation extends Component {
                 <Route path="/experiencies" component={Experiencies} />
                 <Route path="/rankings" component={UserProfile} />
                 <Route path="/login" component={UserProfile} />
+                <Route path="/ranking" component={Ranking} />
 
             </Fragment>
         );
