@@ -96,12 +96,7 @@ function UserProfile () {
     );
 }
 
-const dividervert = {
-    width: 0,
-	borderRight: "1px solid #e3e6f0",
-	height: "calc(4.375rem - 2rem)",
-	margin:" auto 1rem"
-	};
+
 const row = {
       display: "flex"
 };
