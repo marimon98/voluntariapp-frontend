@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import userPhoto from './img/userX.PNG';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPen } from '@fortawesome/free-solid-svg-icons';
+import { faPen, faMapMarker, faCertificate} from '@fortawesome/free-solid-svg-icons';
 
 function UserProfile () {
     return (
         <div>
-            Perfil de usuario
+            Perfil de usuario<br/><br/>
 
             <div>
-                        Ranking<br/><br/>
+
                         <div>
                          <div style = {row}>
                             <button style = {botonEdita}>
@@ -21,7 +21,9 @@ function UserProfile () {
                          </div>
                          <div style = {row}>
                             <div style = {column1}>
-                                <img src={userPhoto} style = {widthMax}></img>
+                                <img src={userPhoto} style = {widthMax}></img><br/><br/>
+                                <div style = {localitzacio}><FontAwesomeIcon icon={faMapMarker} />  &nbsp; Localització</div> <br/>
+                                <div style = {localitzacio}><FontAwesomeIcon icon={faCertificate} />  &nbsp; 400 xapes</div>
 
                             </div>
                             <div style = {column2}>
@@ -40,7 +42,10 @@ const row = {
 const column1 = {
     float: "left",
     width: "20%",
-    padding: "10px"
+    padding: "10px",
+    alignItem: "center"
+
+
 };
 const column2 = {
     float: "left",
@@ -49,6 +54,11 @@ const column2 = {
 };
 const edita = {
     fontSize: 22
+};
+const localitzacio = {
+    fontSize: 22,
+    justifyContent: "center",
+    display: "flex"
 };
 const botonEdita = {
     padding: "7px 15px 0px 10px",
