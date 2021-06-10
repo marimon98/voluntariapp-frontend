@@ -147,7 +147,7 @@ export function Esqueleto() {
                                     <i className="fa fa-bars"></i>
                                 </button>
                                 {/*MODIFICAR PARA HACERLO DINAMICAMENTE*/}
-                                <span style = {{ padding:  "0% 0% 0% 50%", fontSize: 22, color: "black"}}> Títol </span>
+                                <span style = {{ padding:  "0% 0% 0% 50%", fontSize: 22, color: "black"}}> Voluntari </span>
 
                                 {/*<!-- Topbar Navbar -->*/}
                                 <ul className="navbar-nav ml-auto">
