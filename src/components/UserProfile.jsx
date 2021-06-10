@@ -6,9 +6,13 @@ import { faPen, faMapMarker, faCertificate} from '@fortawesome/free-solid-svg-ic
 function UserProfile () {
     const [showButton, setShowButton] = useState(false);
 
-    const[stringNom, setStringNom] = useState("Carles Puigdemont");
-    const[stringEmail, setStringEmail] = useState("PuchiLoParteNoseque@protonmail.com");
-    const[stringMe, setStringMe] = useState("Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!");
+   const [usuario, setUsuario] = useState(
+        {id:1, user: "Carles Puigdemont", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
+    );
+
+    const[stringNom, setStringNom] = useState(usuario.user);
+    const[stringEmail, setStringEmail] = useState(usuario.email);
+    const[stringMe, setStringMe] = useState(usuario.aboutMe);
 
     const[stringEdit, setStringEdit] = useState("Edita");
 
@@ -32,6 +36,7 @@ function UserProfile () {
         {id:3, title: " Concert virtual Michael Jackson", body: "Reviu un espectacle del rei del pop de manera online i exclusiva.", image: null, owner: "Tickets Ramon", xapes: "400",  data :"1/23/2022" , ciutat: "Online"}
 
     ]);
+
 
     return (
         <div>

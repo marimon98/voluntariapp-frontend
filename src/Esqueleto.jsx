@@ -34,10 +34,10 @@ export function Esqueleto() {
 
             </head>
 
-            <body id="page-top">
+            <body id="page-top" >
 
                 {/*<!-- Page Wrapper -->*/}
-                <div id="wrapper">
+                <div id="wrapper" >
 
                     {/*<!-- Sidebar -->*/}
                     <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style ={headStyle}>
@@ -134,7 +134,7 @@ export function Esqueleto() {
                     {/*<!-- End of Sidebar -->*/}
 
                     {/*<!-- Content Wrapper -->*/}
-                    <div id="content-wrapper" className="d-flex flex-column">
+                    <div id="content-wrapper" className="d-flex flex-column" style={backGround}>
 
                         {/*<!-- Main Content -->*/}
                         <div id="content">
@@ -229,4 +229,6 @@ const headStyle = {
    /* width: "130px",
    position: "fixed",
    zIndex: 1*/
+};const backGround = {
+    backgroundColor: "#fefefefe"
 };
