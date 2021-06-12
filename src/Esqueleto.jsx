@@ -6,7 +6,7 @@ import { App } from './App';
 import imgUser from './components/img/userX.PNG';
 import {Link, Route, BrowserRouter as Router} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faHands, faHandsHelping, faUser,faTrophy, faCertificate, faArrowLeft,faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faHands, faHandsHelping, faUser,faTrophy, faCertificate, faArrowLeft,faSearch, faQrcode } from '@fortawesome/free-solid-svg-icons';
 import Navigation from "./components/Navigation";
 
 export function Esqueleto() {
@@ -120,6 +120,23 @@ export function Esqueleto() {
                                 <span>Rànking</span>
                             </Link>
                         </li>
+
+                        { /*<!-- Divider -->*/}
+                        <hr className="sidebar-divider d-none d-md-block"/>
+                        {/*<!-- Personal -->*/}
+                        <div className="sidebar-heading">
+                            Participació
+                        </div>
+
+                        {/*<!-- Nav Item - QrCode -->*/}
+                        <li className="nav-item">
+                              <Link className="nav-link collapsed" to="/QrCode" data-toggle="collapse" data-target="#collapseUtilities"
+                                    aria-expanded="true" aria-controls="collapseUtilities">
+                                    <FontAwesomeIcon icon={faQrcode} />  &nbsp; &nbsp;
+                                    <span>Generar codi QR</span>
+                              </Link>
+                        </li>
+
                         { /*<!-- Divider -->*/}
                         <hr className="sidebar-divider d-none d-md-block"/>
                         {/*<!-- Nav Item - Sortir -->*/}

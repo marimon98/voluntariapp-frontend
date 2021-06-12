@@ -6,6 +6,7 @@ import Enrolled from "./Enrolled";
 import UserProfile from "./UserProfile";
 import Experiencies from "./ExperienciesList";
 import Ranking from "./Ranking";
+import QrCode from "./QrCode"
 
 class Navigation extends Component {
     render() {
@@ -19,6 +20,7 @@ class Navigation extends Component {
                 <Route path="/rankings" component={UserProfile} />
                 <Route path="/login" component={UserProfile} />
                 <Route path="/ranking" component={Ranking} />
+                <Route path="/QrCode" component={QrCode} />
 
             </Fragment>
         );
