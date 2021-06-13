@@ -6,7 +6,7 @@ import { App } from './App';
 import imgUser from './components/img/userX.PNG';
 import {Link, Route, BrowserRouter as Router} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faHands, faHandsHelping, faUser,faTrophy, faCertificate, faArrowLeft,faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faHands, faHandsHelping, faUser,faTrophy, faCertificate, faArrowLeft,faSearch, faQrcode } from '@fortawesome/free-solid-svg-icons';
 import Navigation from "./components/Navigation";
 
 export function Esqueleto() {
@@ -18,7 +18,7 @@ export function Esqueleto() {
         <Router>
 
 
-            <head>
+            <head >
 
                 <meta charSet="utf-8"/>
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
@@ -36,13 +36,13 @@ export function Esqueleto() {
 
             </head>
 
-            <body id="page-top">
+            <body id="page-top" >
 
                 {/*<!-- Page Wrapper -->*/}
-                <div id="wrapper">
+                <div id="wrapper" >
 
                     {/*<!-- Sidebar -->*/}
-                    <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+                    <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style ={headStyle}>
 
                         {/*<!-- Sidebar - Brand -->*/}
                         <a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
@@ -122,6 +122,23 @@ export function Esqueleto() {
                                 <span>Rànking</span>
                             </Link>
                         </li>
+
+                        { /*<!-- Divider -->*/}
+                        <hr className="sidebar-divider d-none d-md-block"/>
+                        {/*<!-- Personal -->*/}
+                        <div className="sidebar-heading">
+                            Participació
+                        </div>
+
+                        {/*<!-- Nav Item - QrCode -->*/}
+                        <li className="nav-item">
+                              <Link className="nav-link collapsed" to="/QrCode" data-toggle="collapse" data-target="#collapseUtilities"
+                                    aria-expanded="true" aria-controls="collapseUtilities">
+                                    <FontAwesomeIcon icon={faQrcode} />  &nbsp; &nbsp;
+                                    <span>Generar codi QR</span>
+                              </Link>
+                        </li>
+
                         { /*<!-- Divider -->*/}
                         <hr className="sidebar-divider d-none d-md-block"/>
                         {/*<!-- Nav Item - Sortir -->*/}
@@ -136,7 +153,7 @@ export function Esqueleto() {
                     {/*<!-- End of Sidebar -->*/}
 
                     {/*<!-- Content Wrapper -->*/}
-                    <div id="content-wrapper" className="d-flex flex-column">
+                    <div id="content-wrapper" className="d-flex flex-column" style={backGround}>
 
                         {/*<!-- Main Content -->*/}
                         <div id="content">
@@ -149,7 +166,7 @@ export function Esqueleto() {
                                     <i className="fa fa-bars"></i>
                                 </button>
                                 {/*MODIFICAR PARA HACERLO DINAMICAMENTE*/}
-                                <span style = {{ padding:  "0% 0% 0% 50%", fontSize: 22, color: "black"}}> Títol </span>
+                                <span style = {{ padding:  "0% 0% 0% 50%", fontSize: 22, color: "black"}}> Voluntari </span>
 
                                 {/*<!-- Topbar Navbar -->*/}
                                 <ul className="navbar-nav ml-auto">
@@ -222,49 +239,15 @@ export function Esqueleto() {
                     {/*<!-- End of Content Wrapper -->*/}
 
                 </div>
-                {/*<!-- End of Page Wrapper -->*/}
-
-                {/*<!-- Scroll to Top Button-->*/}
-                <a className="scroll-to-top rounded" href="#page-top">
-                    <i className="fas fa-angle-up"></i>
-                </a>
-
-                {/*<!-- Logout Modal-->*/}
-                <div className="modal fade" id="logoutModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div className="modal-dialog" role="document">
-                        <div className="modal-content">
-                            <div className="modal-header">
-                                <h5 className="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                                <button className="close" type="button" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-                            </div>
-                            <div className="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                            <div className="modal-footer">
-                                <button className="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                                <a className="btn btn-primary" href="login.html">Logout</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/*<!-- Bootstrap core JavaScript-->*/}
-                <script src="vendor/jquery/jquery.min.js"></script>
-                <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-                {/*<!-- Core plugin JavaScript-->*/}
-                <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-                {/*<!-- Custom scripts for all pages-->*/}
-                <script src="/sb-admin-2.min.js"></script>
-
             </body>
-
-
-
-
         </Router>
 
     );
 }
+const headStyle = {
+   /* width: "130px",
+   position: "fixed",
+   zIndex: 1*/
+};const backGround = {
+    backgroundColor: "#fefefefe"
+};

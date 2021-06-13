@@ -5,7 +5,7 @@ import {faSearch,faCertificate, } from '@fortawesome/free-solid-svg-icons';
 
 function Experiencies({experiencia, handleInscription}) {
 
-    const {id, title, body, image, owner, xapes, data} = experiencia;
+    const {id, title, body, image, owner, xapes, data, ciutat} = experiencia;
 
     const inscription = () => {
         handleInscription(id);
@@ -28,8 +28,9 @@ function Experiencies({experiencia, handleInscription}) {
                         <span style= {nameUser}>{owner}</span> <br/>
                         </div>
                         <div style = {column1}>
-                            <div style = {divXapa} ><span style= {xapaStyle}>{xapes} <FontAwesomeIcon icon={faCertificate} />  &nbsp; &nbsp; </span><br/></div>
-                            <span style= {dataStyle}>{data} </span><br/>
+                            <div style = {divXapa} ><span style= {xapaStyle}>{xapes} <FontAwesomeIcon icon={faCertificate} />  &nbsp; &nbsp; </span><br/></div><br/>
+                            <span style= {dataStyle}>{data} </span><br/><br/>
+                            <span style= {cityStyle}>{ciutat} </span><br/><br/>
                         </div>
                         {}
                     </div>
@@ -55,7 +56,8 @@ const row = {
 };
 
 const widthMax = {
-      maxWidth: "90%"
+      width: "90%",
+      height: "auto"
 };
 
 const column1 = {
@@ -90,8 +92,13 @@ const divXapa = {
 };
 const dataStyle = {
     fontSize: 20,
-    fontWeight: "bold"/*,
-    padding: "0px 0px 0px 15px"*/
+    fontWeight: "bold",
+    padding: "0px 0px 0px 10px"
+};
+const cityStyle = {
+    fontSize: 30,
+    fontWeight: "bold",
+    /*padding: "0px 0px 0px 10px"*/
 };
 
 
