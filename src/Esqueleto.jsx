@@ -11,6 +11,8 @@ import Navigation from "./components/Navigation";
 
 export function Esqueleto() {
 
+    const [inscritos, setInscritos] = useState([]);
+
 
     return (
         <Router>

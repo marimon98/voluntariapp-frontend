@@ -8,6 +8,7 @@ function VoluntariadosList() {
         {id:2, title: "Ayuda para sintechos", body: "Muchas personas sin casa por Girona, ven a colaborar", image: null, owner: "Eustaquio"}
     ]);
 
+
     return (
         <ul>
             {voluntariados.map((volutariado) => (
