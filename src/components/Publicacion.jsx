@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import copa3 from "./img/copa3.png";
+import image from "./img/userX.PNG";
 
 function Publicacion({publicacion}) {
 

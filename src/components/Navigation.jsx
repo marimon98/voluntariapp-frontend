@@ -12,7 +12,7 @@ function Navigation () {
 
     const [voluntariados, setVoluntariados] = useState([
            {id:1, title: "Netegem les platges", body: "Es necessita ajuda per a netejar la platja de la Barceloneta.", image: null, owner: "Damm-BCN", enrolled: false, data: "03/10/2021", ciutat: "Barcelona"},
-           {id:2, title: "Voluntariat exemple", body: "Descripció del voluntariat.", image: null, owner: "Damm", enrolled: false, data: "xx/xx/20xx", ciutat: "Poblacio001"},
+           {id:2, title: "Families afectades per les ventades", body: "Vine a ajudar a les families que han estat víctimes de les ventades en les seves cases.", image: null, owner: "Damm", enrolled: false, data: "21/02/2022", ciutat: "Cadaquès"},
            {id:3, title: "Cursa pel cancer de pulmó", body: "Hi ha moltes persones que necessiten tractament pel cancer de pulmó. Vina a participar en una cursa solidària per a ajudar a aquestes persones.", image: null, owner: "Damm-Girona", enrolled: true, data: "10/08/2021", ciutat: "Girona"}
     ]);
 

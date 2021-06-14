@@ -9,13 +9,13 @@ import {faClock,faCertificate } from '@fortawesome/free-solid-svg-icons';
 function Ranking () {
 
     const [usuario, setUsuario] = useState([
-        {id:1, user: "user1", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
-        {id:2, user: "user12", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
-        {id:3, user: "user123", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
-        {id:4, user: "user1234", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
-        {id:5, user: "user12345", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
-        {id:6, user: "user123456", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
-        {id:7, user: "user1234567", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
+        {id:1, user: "Miquel Perez", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
+        {id:2, user: "nuriRodri9", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
+        {id:3, user: "voluntariGironès", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
+        {id:4, user: "mql1998", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
+        {id:5, user: "PereGutiZaplana", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
+        {id:6, user: "Carla10", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
+        {id:7, user: "CristinaLaCruz", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
 
     ]);
 

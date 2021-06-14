@@ -1,4 +1,8 @@
 import React, {useState} from 'react';
+import userPhoto from './img/userX.PNG';
+import userPhoto1 from './img/playa.jpg';
+import userPhoto2 from './img/vent.jpg';
+import userPhoto3 from './img/cursa.jpeg';
 
 function Voluntariado({voluntariado, handleInscription}) {
 
@@ -12,9 +16,28 @@ function Voluntariado({voluntariado, handleInscription}) {
         setBoton(!enrolled ? "Desapuntar-se" : "Apuntar-se");
     }
 
+    var photo;
+    if(id == 1){
+    photo = userPhoto1;
+    }
+    else if(id == 2){
+     photo = userPhoto2;
+    }
+    else if (id == 3){
+     photo = userPhoto3;
+    }
+    else{
+     photo = userPhoto;
+    }
+
     return (
         <div>
             <div style = {row}>
+                <div style = {column1}>
+                    <span><img src={photo} style = {widthMax}></img></span>
+                    {image}
+
+                </div>
                 <div style = {column2}>
                     <div style = {row}>
                         <div style = {column2}>
