@@ -19,26 +19,11 @@ function Voluntariado({voluntariado, handleInscription}) {
         setBoton(!enrolled ? "Desapuntar-se" : "Apuntar-se");
     }
 
-    var photo;
-    if(id == 1){
-    photo = userPhoto1;
-    }
-    else if(id == 2){
-     photo = userPhoto2;
-    }
-    else if (id == 3){
-     photo = userPhoto3;
-    }
-    else{
-     photo = userPhoto;
-    }
-
     return (
         <div>
             <div style = {row}>
                 <div style = {column1}>
-                    <span><img src={photo} style = {widthMax}></img></span>
-                    {image}
+                    <span><img src={image} style = {widthMax}></img></span>
 
                 </div>
                 <div style = {column2}>

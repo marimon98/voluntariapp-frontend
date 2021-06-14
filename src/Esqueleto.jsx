@@ -46,7 +46,7 @@ export function Esqueleto() {
                     <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style ={headStyle}>
 
                         {/*<!-- Sidebar - Brand -->*/}
-                        <a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+                        <a className="sidebar-brand d-flex align-items-center justify-content-center">
                             <div className="sidebar-brand-icon rotate-n-15">
                                 <i className="fas fa-laugh-wink">V</i>
                             </div>
@@ -144,11 +144,11 @@ export function Esqueleto() {
                         <hr className="sidebar-divider d-none d-md-block"/>
                         {/*<!-- Nav Item - Sortir -->*/}
                         <li className="nav-item">
-                            <Link className="nav-link collapsed" to="/login" data-toggle="collapse" data-target="#collapseTwo"
+                            <div className="nav-link collapsed" to="/login" data-toggle="collapse" data-target="#collapseTwo"
                                 aria-expanded="true" aria-controls="collapseTwo">
                                 <FontAwesomeIcon icon={faArrowLeft} />  &nbsp; &nbsp;
                                 <span>Sortir</span>
-                            </Link>
+                            </div>
                         </li>
                     </ul>
                     {/*<!-- End of Sidebar -->*/}
