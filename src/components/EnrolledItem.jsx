@@ -1,4 +1,11 @@
 import React, {useState} from 'react';
+import userPhoto from './img/userX.PNG';
+import userPhoto1 from './img/cruilla.jpg';
+import userPhoto2 from './img/macba.jpg';
+import userPhoto3 from './img/michael.jpg';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPen, faMapMarker, faCertificate} from '@fortawesome/free-solid-svg-icons';
 
 function EnrolledItem({voluntariado, handleInscription}) {
 
