@@ -11,9 +11,9 @@ import QrCode from "./QrCode"
 function Navigation () {
 
     const [voluntariados, setVoluntariados] = useState([
-           {id:1, title: "Netegem les platges", body: "Es necessita ajuda per a netejar la platja de la Barceloneta.", image: null, owner: "Damm-BCN", enrolled: false, data: "03/10/2021", ciutat: "Barcelona"},
-           {id:2, title: "Voluntariat exemple", body: "Descripció del voluntariat.", image: null, owner: "Damm", enrolled: false, data: "xx/xx/20xx", ciutat: "Poblacio001"},
-           {id:3, title: "Cursa pel cancer de pulmó", body: "Hi ha moltes persones que necessiten tractament pel cancer de pulmó. Vina a participar en una cursa solidària per a ajudar a aquestes persones.", image: null, owner: "Damm-Girona", enrolled: true, data: "10/08/2021", ciutat: "Girona"}
+           {id:1, title: "Netegem les platges", body: "Es necessita ajuda per a netejar la platja de la Barceloneta.", image: null, owner: "Damm-BCN", enrolled: false, data: "03/10/2021", ciutat: "Barcelona", premi: 50},
+           {id:2, title: "Voluntariat exemple", body: "Descripció del voluntariat.", image: null, owner: "Damm", enrolled: false, data: "xx/xx/20xx", ciutat: "Poblacio1", premi: 40},
+           {id:3, title: "Cursa pel cancer de pulmó", body: "Hi ha moltes persones que necessiten tractament pel cancer de pulmó. Vina a participar en una cursa solidària per a ajudar a aquestes persones.", image: null, owner: "Damm-Girona", enrolled: true, data: "10/08/2021", ciutat: "Girona", premi: 85}
     ]);
 
     function compare(a, b) {

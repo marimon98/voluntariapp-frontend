@@ -7,7 +7,7 @@ function UserProfile () {
     const [showButton, setShowButton] = useState(false);
 
    const [usuario, setUsuario] = useState(
-        {id:1, user: "Miquel Perez", email: "miquel.p@example.com",aboutMe: "M'agrada molt fer voluntariats de caire ambiental. Crec que és el nostre bé més valuos"},
+        {id:1, user: "Miquel Perez", email: "miquel.p@example.com",aboutMe: "M'agrada molt fer voluntariats de caire ambiental. Crec que és el nostre bé més valuós"},
     );
 
     const[stringNom, setStringNom] = useState(usuario.user);

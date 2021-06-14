@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faCertificate} from "@fortawesome/free-solid-svg-icons";
 
 function EnrolledItem({voluntariado, handleInscription}) {
 
-    var {id, title, body, image, owner, enrolled, data, ciutat} = voluntariado;
+    var {id, title, body, image, owner, enrolled, data, ciutat, premi} = voluntariado;
 
     const inscription = () => {
         handleInscription(id);
@@ -17,6 +19,9 @@ function EnrolledItem({voluntariado, handleInscription}) {
                             <h1 style={mystyle}>{title}</h1>
                             <span style= {description}>{body}</span> <br/>
                             <span style= {nameUser}>{owner}</span>
+                            <button style = {divXapa2} >
+                                <span style= {xapaStyle}>{premi}<FontAwesomeIcon icon={faCertificate} /></span>
+                            </button>
                         </div>
                     </div>
                     <div style={column1}>
@@ -88,6 +93,14 @@ const cityStyle = {
     fontSize: 30,
     fontWeight: "bold",
     /*padding: "0px 0px 0px 10px"*/
+};
+const divXapa2 = {
+    float: "right",
+    marginRight: "30%",
+    borderStyle: "solid",
+    width: "10%",
+    backgroundColor: "lightgrey",
+    borderRadius: "50px"
 };
 
 export default EnrolledItem;
