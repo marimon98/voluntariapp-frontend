@@ -4,16 +4,12 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCertificate} from "@fortawesome/free-solid-svg-icons";
 import {text} from "@fortawesome/fontawesome-svg-core";
 
-function Voluntariado({voluntariado, handleInscription}) {
+function EnrolledItem({voluntariado, handleInscription}) {
 
     var {id, title, body, image, owner, enrolled, data, ciutat} = voluntariado;
 
-    const [boton, setBoton] = useState(enrolled ? "Desapuntar-se" : "Apuntar-se");
-
-
     const inscription = () => {
         handleInscription(id);
-        setBoton(!enrolled ? "Desapuntar-se" : "Apuntar-se");
     }
 
     return (
@@ -30,7 +26,7 @@ function Voluntariado({voluntariado, handleInscription}) {
                     <div style={column1}>
                         <span style= {dataStyle}>{ciutat} </span>
                         <span style= {dataStyle}>{data} </span>
-                        <button style = {divXapa} onClick={inscription}><span style={xapaStyle}>{boton}</span></button>
+                        <button style = {divXapa} onClick={inscription}><span style={xapaStyle}>Desapuntar-se</span></button>
                     </div>
                 </div>
 
@@ -98,4 +94,4 @@ const cityStyle = {
     /*padding: "0px 0px 0px 10px"*/
 };
 
-export default Voluntariado;
+export default EnrolledItem;

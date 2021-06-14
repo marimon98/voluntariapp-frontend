@@ -13,6 +13,7 @@ function VoluntariadosList({voluntariados,apuntarseVoluntariado}) {
 
     return (
         <div>
+            Voluntariats disponibles <br/>
             {/*<!-- Voluntariados listados -->*/}
             { /*<!-- Divider -->*/}
             <hr className="sidebar-divider d-none d-md-block"/>
