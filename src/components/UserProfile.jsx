@@ -25,8 +25,8 @@ function UserProfile () {
         else setStringEdit("Edita");
     }
     const [voluntariados, setVoluntariados] = useState([
-        {id:1, title: "Netegem les platges", body: "Necesitan ayuda para limipiar la Barceloneta", image: null, owner: "Clara"},
-        {id:2, title: "Cursa pel cancer de pulmó", body: "Muchas personas sin casa por Girona, ven a colaborar", image: null, owner: "Eustaquio"},
+        {id:1, title: "Recollida de deixalles: Terra Alta"},
+        {id:2, title: "L'Ebre et necessita!"},
 
     ]);
 
