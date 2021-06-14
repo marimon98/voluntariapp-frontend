@@ -1,21 +1,39 @@
 import React, { useState} from 'react';
 import Voluntariado from "./Voluntariado";
+import Experiencies from "./Experiencies";
 
-function VoluntariadosList() {
+function VoluntariadosList({voluntariados,apuntarseVoluntariado}) {
 
-    const [voluntariados, setVoluntariados] = useState([
-        {id:1, title: "Limpiemos las playas", body: "Necesitan ayuda para limipiar la Barceloneta", image: null, owner: "Clara"},
-        {id:2, title: "Ayuda para sintechos", body: "Muchas personas sin casa por Girona, ven a colaborar", image: null, owner: "Eustaquio"}
-    ]);
+    const [voluns, setVoluns] = useState(voluntariados());
 
+    const funcApuntarse = (id) => {
+        apuntarseVoluntariado(id);
+        setVoluns(voluntariados());
+    }
 
     return (
-        <ul>
-            {voluntariados.map((volutariado) => (
-                <Voluntariado key={volutariado.id} voluntariado={volutariado} />
-            ))}
-        </ul>
+        <div>
+            {/*<!-- Voluntariados listados -->*/}
+            { /*<!-- Divider -->*/}
+            <hr className="sidebar-divider d-none d-md-block"/>
+            <div style = {scroll}>
+                {voluns.map((volutariado) => (
+                    <Voluntariado key={volutariado.id} voluntariado={volutariado} handleInscription={funcApuntarse} />
+                ))}
+            </div>
+        </div>
     );
+
+}
+
+const scroll = {
+    overflowY: "scroll"
+};
+const styleSearch = {
+    padding: "0% 0% 0% 25%"
+};
+function myFunc() {
+    alert('Se ha dado clic al botón!')
 }
 
 export default VoluntariadosList;

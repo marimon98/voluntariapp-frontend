@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-function Enrolled () {
+function Enrolled ({voluntariados,setVoluntariados}) {
 
     return (
         <div>

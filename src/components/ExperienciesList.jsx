@@ -20,7 +20,7 @@ function ExperienciesList() {
     function handleClick(e) {
         e.preventDefault();
         experiencia.filter(val => {
-            if(searchTearm == ""){
+            if(searchTearm === ""){
                 return val;
             }else if(val.ciutat.toLowerCase().includes(searchTearm.toLowerCase())){
                 return val;
@@ -59,9 +59,9 @@ function ExperienciesList() {
                 <hr className="sidebar-divider d-none d-md-block"/>
         <ul style = {scroll}>
             {experiencia.filter(val => {
-                                     if(searchTearm == ""){
-                                        if(val.title.toLowerCase().includes(searchTearmTitle.toLowerCase()) || searchTearmTitle == "") return val;
-                                     }else if(searchTearmTitle == ""){
+                                     if(searchTearm === ""){
+                                        if(val.title.toLowerCase().includes(searchTearmTitle.toLowerCase()) || searchTearmTitle === "") return val;
+                                     }else if(searchTearmTitle === ""){
                                         if(val.ciutat.toLowerCase().includes(searchTearm.toLowerCase())) return val;
                                      }else{
                                         if(val.title.toLowerCase().includes(searchTearmTitle.toLowerCase()) && val.ciutat.toLowerCase().includes(searchTearm.toLowerCase())) return val;
