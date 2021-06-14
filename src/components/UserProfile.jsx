@@ -7,7 +7,7 @@ function UserProfile () {
     const [showButton, setShowButton] = useState(false);
 
    const [usuario, setUsuario] = useState(
-        {id:1, user: "Carles Puigdemont", email: "PuchiLoParteNoseque@protonmail.com",aboutMe: "Ex presi de la gene i em van fotre fora ara estic a Bruseles fent voluntariats molt guais!"},
+        {id:1, user: "Miquel Perez", email: "miquel.p@example.com",aboutMe: "M'agrada molt fer voluntariats de caire ambiental. Crec que és el nostre bé més valuos"},
     );
 
     const[stringNom, setStringNom] = useState(usuario.user);
@@ -25,8 +25,8 @@ function UserProfile () {
         else setStringEdit("Edita");
     }
     const [voluntariados, setVoluntariados] = useState([
-        {id:1, title: "Limpiemos las playas", body: "Necesitan ayuda para limipiar la Barceloneta", image: null, owner: "Clara"},
-        {id:2, title: "Ayuda para sintechos", body: "Muchas personas sin casa por Girona, ven a colaborar", image: null, owner: "Eustaquio"},
+        {id:1, title: "Netegem les platges", body: "Necesitan ayuda para limipiar la Barceloneta", image: null, owner: "Clara"},
+        {id:2, title: "Cursa pel cancer de pulmó", body: "Muchas personas sin casa por Girona, ven a colaborar", image: null, owner: "Eustaquio"},
 
     ]);
 
