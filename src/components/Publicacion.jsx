@@ -1,12 +1,10 @@
 import React, {useState} from 'react';
+import copa3 from "./img/copa3.png";
 
-function EnrolledItem({voluntariado, handleInscription}) {
+function Publicacion({publicacion}) {
 
-    var {id, title, body, image, owner, enrolled, data, ciutat} = voluntariado;
+    var {id, body, image, owner, data} = publicacion;
 
-    const inscription = () => {
-        handleInscription(id);
-    }
 
     return (
         <div>
@@ -14,15 +12,11 @@ function EnrolledItem({voluntariado, handleInscription}) {
                 <div style = {column2}>
                     <div style = {row}>
                         <div style = {column2}>
-                            <h1 style={mystyle}>{title}</h1>
-                            <span style= {description}>{body}</span> <br/>
-                            <span style= {nameUser}>{owner}</span>
+                            <h1 style={mystyle}>{owner}</h1>
+                            <span style= {description}>{body}</span>
+                            <img src={image} style = {widthMax2}></img><br/>
+                            <span style= {nameUser}>{"Publicat: " + data}</span>
                         </div>
-                    </div>
-                    <div style={column1}>
-                        <span style= {dataStyle}>{ciutat} </span>
-                        <span style= {dataStyle}>{data} </span>
-                        <button style = {divXapa} onClick={inscription}><span style={xapaStyle}>Desapuntar-se</span></button>
                     </div>
                 </div>
 
@@ -89,5 +83,11 @@ const cityStyle = {
     fontWeight: "bold",
     /*padding: "0px 0px 0px 10px"*/
 };
+const widthMax2 = {
+    width: "30%",
+    height: "auto",
+    justifyContent: "center",
+    display: "flex"
+};
 
-export default EnrolledItem;
+export default Publicacion;

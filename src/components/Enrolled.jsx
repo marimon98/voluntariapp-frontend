@@ -1,5 +1,4 @@
-import React, {Component, useState} from 'react';
-import Voluntariado from "./Voluntariado";
+import React, {useState} from 'react';
 import EnrolledItem from "./EnrolledItem";
 
 function Enrolled ({voluntariados,desapuntarse}) {

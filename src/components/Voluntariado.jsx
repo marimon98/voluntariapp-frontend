@@ -1,8 +1,4 @@
 import React, {useState} from 'react';
-import userPhoto from "./img/userX.PNG";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faCertificate} from "@fortawesome/free-solid-svg-icons";
-import {text} from "@fortawesome/fontawesome-svg-core";
 
 function Voluntariado({voluntariado, handleInscription}) {
 

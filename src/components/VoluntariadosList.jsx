@@ -1,6 +1,5 @@
 import React, { useState} from 'react';
 import Voluntariado from "./Voluntariado";
-import Experiencies from "./Experiencies";
 
 function VoluntariadosList({voluntariados,apuntarseVoluntariado}) {
 
