@@ -2,6 +2,7 @@ import React, {useState, Fragment, useRef} from "react";
 import ReactDom from "react-dom";
 import  {v4 as uuidv4} from 'uuid';
 import './Esqueleto.css';
+import voluntariAppFoto from './components/img/voluntariapp.PNG';
 import { App } from './App';
 import imgUser from './components/img/userX.PNG';
 import {Link, Route, BrowserRouter as Router} from "react-router-dom";
@@ -166,7 +167,8 @@ export function Esqueleto() {
                                     <i className="fa fa-bars"></i>
                                 </button>
                                 {/*MODIFICAR PARA HACERLO DINAMICAMENTE*/}
-                                <span style = {{ padding:  "0% 0% 0% 50%", fontSize: 22, color: "black"}}> Voluntari </span>
+                                {/*<span style = {{ padding:  "0% 0% 0% 50%", fontSize: 22, color: "black"}}> Voluntari </span>*/}
+                                <span style = {{ padding:  "0% 0% 0% 50%"}}><img src={voluntariAppFoto} style= {{width: "120px", height: "60px"}}></img> </span>
 
                                 {/*<!-- Topbar Navbar -->*/}
                                 <ul className="navbar-nav ml-auto">
