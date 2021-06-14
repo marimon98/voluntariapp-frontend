@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import userPhoto from './img/userX.PNG';
+import userPhoto from './img/generic.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPen, faMapMarker, faCertificate} from '@fortawesome/free-solid-svg-icons';
 

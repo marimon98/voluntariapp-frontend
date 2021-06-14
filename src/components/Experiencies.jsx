@@ -1,5 +1,8 @@
 import React from 'react';
 import userPhoto from './img/userX.PNG';
+import userPhoto1 from './img/cruilla.jpg';
+import userPhoto2 from './img/macba.jpg';
+import userPhoto3 from './img/michael.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faSearch,faCertificate, } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,12 +13,25 @@ function Experiencies({experiencia, handleInscription}) {
     const inscription = () => {
         handleInscription(id);
     }
+    var photo;
+    if(id == 1){
+    photo = userPhoto1;
+    }
+    else if(id == 2){
+     photo = userPhoto2;
+    }
+    else if (id == 3){
+     photo = userPhoto3;
+    }
+    else{
+     photo = userPhoto;
+    }
 
     return (
         <div>
             <div style = {row}>
                 <div style = {column1}>
-                    <img src={userPhoto} style = {widthMax}></img>
+                    <span><img src={photo} style = {widthMax}></img></span>
                     {image}
 
                 </div>
