@@ -28,7 +28,7 @@ function VoluntariadosList({voluntariados,apuntarseVoluntariado}) {
 
 const scroll = {
     overflowY: "scroll",
-    maxHeight: "59vh"
+    maxHeight: "65vh"
 };
 const styleSearch = {
     padding: "0% 0% 0% 25%"
