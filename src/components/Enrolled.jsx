@@ -34,7 +34,8 @@ function Enrolled ({voluntariados,desapuntarse}) {
 }
 
 const scroll = {
-    overflowY: "scroll"
+    overflowY: "scroll",
+    maxHeight: "59vh"
 };
 const styleSearch = {
     padding: "0% 0% 0% 25%"
