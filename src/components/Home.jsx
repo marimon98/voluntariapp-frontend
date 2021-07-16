@@ -25,7 +25,8 @@ function Home () {
 }
 
 const scroll = {
-    overflowY: "scroll"
+    overflowY: "scroll",
+    maxHeight: "70vh"
 };
 const styleSearch = {
     padding: "0% 0% 0% 25%"
