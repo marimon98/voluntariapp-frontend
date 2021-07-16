@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88aaf39a-6360-43fc-92cb-98fba312479c" name="Default Changelist" comment="Logo parte superior merge" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Experiencies,perfil" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tcvSOWlfSgXeeIo4bGAIBhwrXw" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Arnauu\UNI\2021 Q1(GEN)\PAE\VoluntariApp Front RepoNando\src\components" />
+      <recent name="D:\Arnauu\UNI\2021 Q1(GEN)\PAE\VoluntariApp Front RepoNando\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Arnauu\UNI\2021 Q1(GEN)\PAE\VoluntariApp Front RepoNando\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88aaf39a-6360-43fc-92cb-98fba312479c" name="Default Changelist" comment="" />
+      <created>1623081190575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623081190575</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Pagina principal Voluntariapp">
+      <created>1623091661986</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623091661986</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Pagina principal Voluntariapp2">
+      <created>1623092716003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623092716003</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Barra lateral acabada">
+      <created>1623170657669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623170657669</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Apartat experiencies a bescanviar fet front">
+      <created>1623178716687</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623178716687</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Busqueda Experiencies inacabado i User profile empezado">
+      <created>1623264756135</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623264756135</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Busqueda Experiencies acabado i User profile doing">
+      <created>1623322194193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623322194194</updated>
+    </task>
+    <task id="LOCAL-00007" summary="user Profile acabado front">
+      <created>1623350907886</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623350907886</updated>
+    </task>
+    <task id="LOCAL-00008" summary="user Profile acabado Ahora si">
+      <created>1623352529918</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623352529918</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Pantalla ranking acabada (falta boton de historico, pero como creo que no haremos demo no lo programo de momento)">
+      <created>1623362681164</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623362681164</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Images, mas visual">
+      <created>1623689084179</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623689084179</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Images, mas visual">
+      <created>1623690219289</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623690219289</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Logo parte superior">
+      <created>1623692299638</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623692299638</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Logo parte superior merge">
+      <created>1623692537393</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1623692537393</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pagina principal Voluntariapp" />
+    <MESSAGE value="Pagina principal Voluntariapp2" />
+    <MESSAGE value="Barra lateral acabada" />
+    <MESSAGE value="Apartat experiencies a bescanviar fet front" />
+    <MESSAGE value="Busqueda Experiencies inacabado i User profile empezado" />
+    <MESSAGE value="Busqueda Experiencies acabado i User profile doing" />
+    <MESSAGE value="user Profile acabado front" />
+    <MESSAGE value="user Profile acabado Ahora si" />
+    <MESSAGE value="Pantalla ranking acabada (falta boton de historico, pero como creo que no haremos demo no lo programo de momento)" />
+    <MESSAGE value="Images, mas visual" />
+    <MESSAGE value="Logo parte superior" />
+    <MESSAGE value="Logo parte superior merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logo parte superior merge" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1623171470807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623171470807" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1623081248665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623081248665" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623081294754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623081294754" />
+    <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623171421589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623171421589" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1623085296146">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623085296146" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1623692392185">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623692392185" />
+    <state x="598" y="281" key="MultipleFileMergeDialog" timestamp="1623692392190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="281" key="MultipleFileMergeDialog/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623692392190" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1626467224718">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623171678497" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1080.-833.1080.1880@0.0.1920.1040" timestamp="1626467224718" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1623692549380">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623692549380" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623697151651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623697151651" />
+    <state x="0" y="0" width="1498" height="689" key="dock-window-1" timestamp="1623688783155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1498" height="689" key="dock-window-1/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623688783155" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1623353151542">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623353151542" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1623321195297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1080.-562.1080.1880@0.0.1920.1040" timestamp="1623321195297" />
+  </component>
+</project>
