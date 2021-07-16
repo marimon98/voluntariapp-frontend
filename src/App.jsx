@@ -7,6 +7,7 @@ import UserProfile from "./components/UserProfile";
 import Home from "./components/Home";
 import Navigation from "./components/Navigation";
 
+
 export function App() {
     const [todos, setTodos] = useState([
         {id:1, task: "Voluntariado 1", completed: false}
